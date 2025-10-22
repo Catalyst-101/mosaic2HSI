@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision
+numpy
+h5py
+tqdm
+pyyaml
+tensorboard
+matplotlib
+scikit-image
