@@ -39,7 +39,7 @@ def infer_full(mosaic_path, ckpt_path, out_h5_path, device='cpu'):
     with h5py.File(out_h5_path, 'w') as f:
         f.create_dataset('cube', data=pred_cube.astype('float32'), compression='gzip')
 
-    print(f"Saved reconstructed cube to {out_h5_path}")
+    print(f"✅ Saved reconstructed cube to {out_h5_path}")
 
 
 if __name__ == '__main__':
